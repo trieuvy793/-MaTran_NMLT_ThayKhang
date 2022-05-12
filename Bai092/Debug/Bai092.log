@@ -1,0 +1,5 @@
+﻿  Bai092.cpp
+c:\users\admin\onedrive\c\mr.khangl\matran\bai092\bai092.cpp(46): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+c:\users\admin\onedrive\c\mr.khangl\matran\bai092\bai092.cpp(54): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Bai092.vcxproj -> C:\Users\Admin\OneDrive\c\Mr.Khangl\MaTran\Debug\Bai092.exe
+  Bai092.vcxproj -> C:\Users\Admin\OneDrive\c\Mr.Khangl\MaTran\Debug\Bai092.pdb (Full PDB)
