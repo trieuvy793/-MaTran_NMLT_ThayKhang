@@ -1,0 +1,4 @@
+﻿  Bai099.cpp
+c:\users\admin\onedrive\c\mr.khangl\matran\bai099\bai099.cpp(56): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Bai099.vcxproj -> C:\Users\Admin\OneDrive\c\Mr.Khangl\MaTran\Debug\Bai099.exe
+  Bai099.vcxproj -> C:\Users\Admin\OneDrive\c\Mr.Khangl\MaTran\Debug\Bai099.pdb (Full PDB)
