@@ -1,0 +1,5 @@
+﻿  Bai087.cpp
+c:\users\admin\onedrive\c\mr.khangl\matran\bai087\bai087.cpp(53): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\admin\onedrive\c\mr.khangl\matran\bai087\bai087.cpp(56): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Bai087.vcxproj -> C:\Users\Admin\OneDrive\c\Mr.Khangl\MaTran\Debug\Bai087.exe
+  Bai087.vcxproj -> C:\Users\Admin\OneDrive\c\Mr.Khangl\MaTran\Debug\Bai087.pdb (Full PDB)
