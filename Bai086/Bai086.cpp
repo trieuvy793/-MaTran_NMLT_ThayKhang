@@ -1,4 +1,6 @@
 #include <iostream>
+#include<time.h>
+#include<iomanip>
 using namespace std;
 
 int ChanDau(int[][500], int, int);
@@ -54,19 +56,24 @@ int DemChanNhoNhat(int a[][500], int n, int m) {
 	return dem;
 }
 
-void Nhap(int a[][500], int& n, int& m) {
+void Nhap(int  a[][500], int& n, int& m)
+{
+	srand(time(NULL));
 	for (int i = 0; i < n; i++)
-	{
 		for (int j = 0; j < m; j++)
-			cin >> a[i][j];
-	}
+			a[i][j] = -100 + (rand() / (RAND_MAX / (100 - (-100))));
 }
 
-void Xuat(int a[][500], int n, int m) {
+void Xuat(int a[][500], int n, int m)
+{
 	for (int i = 0; i < n; i++)
 	{
 		for (int j = 0; j < m; j++)
-			cout << a[i][j] << " ";
+		{
+			cout << setw(8);
+			cout << setprecision(3);
+			cout << a[i][j];
+		}
 		cout << "\n";
 	}
 }
